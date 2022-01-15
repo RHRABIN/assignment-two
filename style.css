@@ -1,7 +1,11 @@
+/* Css for html */
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; /* body style*/
+    background-color: white;
+    
 }
 header{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 
@@ -9,7 +13,7 @@ header{
 }
 .influencer-class{
     display: flex;  
-    width: 1100px;
+    width: 1150px;
     justify-content: space-between;
 }
 
@@ -18,19 +22,96 @@ nav ul{
 }
 ul li{
     list-style: none;
-    font-size: 29px;
+    font-size: 20px;
 }
 li a:hover{
     background-color:darksalmon;
-    transform: scale();
     border-radius: 4px;
     transition: 0.7s;
 }
-li a{
+li a {
     text-decoration: none;
-    margin-right: 15px;
+    margin-right: 20px;
     color: black;
 }
-.influencer2{
+
+li i {
+    margin-right: 20px;
+}
+h1{
+    font-size: 50px;
+}
+/* -------------------------------------------
+             heading section end
+---------------------------------------------- */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.influ-class{
+    display: flex;
+    width: 1150px;
+    justify-content: space-between;
     
+}
+button{
+    background-color:#dc143c;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 25px;
+}
+.arrow{
+    padding-left: 10px;
+}
+/*-----------------------------------------------
+                First section end here
+------------------------------------------------- */
+.logo{
+    width: 980px;
+    display: flex;    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+/* --------------------------------------------------
+                Second section end
+----------------------------------------------------- */
+.all-blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-row-gap: 10px;
+    width: 980px;
+}
+.popular-collection{
+    background-color:white;
+    border-radius: 10px;
+    margin-right: 25px;
+    box-shadow: 0px 0px 20px gray;
+
+}
+
+.image img{
+    width: 100%;
+}
+.blogs{
+    padding:10px 10px;
+}
+.line-height{
+    line-height: 1.2;
+    font-size: 15px;
+}
+.filled{
+    color: yellow;
+    z-index: 1;
+}
+.half{
+    color: gray;
 }
